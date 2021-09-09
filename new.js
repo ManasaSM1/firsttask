@@ -10,7 +10,5 @@ req.onload=function()
         console.log(data[i].flag)
         //console.log(data[i].name+" "+data[i].region+" "+data[i].subregion+" "+data[i].population);
     }
-    data.forEach((e) => 
-        console.log(e.currencies=="USD")
-    );
+    
 }
